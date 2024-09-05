@@ -16,6 +16,7 @@
     {"id":{"name":"obj_poisontick","path":"objects/obj_poisontick/obj_poisontick.yy",},"order":3,},
     {"id":{"name":"scr_utilControl","path":"scripts/scr_utilControl/scr_utilControl.yy",},"order":9,},
     {"id":{"name":"spr_dungeon","path":"sprites/spr_dungeon/spr_dungeon.yy",},"order":1,},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":6,},
     {"id":{"name":"scr_towerControl","path":"scripts/scr_towerControl/scr_towerControl.yy",},"order":6,},
     {"id":{"name":"spr_poisonball","path":"sprites/spr_poisonball/spr_poisonball.yy",},"order":2,},
     {"id":{"name":"_GAMEMASTER","path":"objects/_GAMEMASTER/_GAMEMASTER.yy",},"order":5,},

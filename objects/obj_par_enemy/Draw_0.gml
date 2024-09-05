@@ -6,7 +6,7 @@ draw_self();
 draw_set_font(fnt_small);
 
 y_offset = - sprite_height / 2 - 10;
-text_life = string(monster_hp) + " / " + string(monster_hp_max);
+text_life = string(hp) + " / " + string(hp_max);
 
 
 draw_set_color(c_white);
