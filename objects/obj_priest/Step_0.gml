@@ -1,14 +1,16 @@
 /// @description Check enemies
 
 for (var i = 0; i < array_length(obj_priest.min_ranges); i++) {
-    with (obj_par_enemy) {
-        if (has_enemy_on_range(obj_priest.min_ranges[i], obj_priest.max_ranges[i], obj_priest, id)) {
-			if (obj_priest.target == noone && obj_priest.min_ranges[i] == 0 && obj_priest.max_ranges[i] == 45) {
-				obj_priest.target = id;
-			}
-		   show_debug_message("Range: " + string(obj_priest.max_ranges[i]));
-        }
-    }
+	if(instance_exists(obj_par_enemy)) {
+	    with (obj_par_enemy) {
+	        if (has_enemy_on_range(obj_priest.min_ranges[i], obj_priest.max_ranges[i], obj_priest, id)) {
+				if (obj_priest.target == noone && obj_priest.min_ranges[i] == 0 && obj_priest.max_ranges[i] == 45) {
+					obj_priest.target = id;
+				}
+			   show_debug_message("Range: " + string(obj_priest.max_ranges[i]));
+	        }
+	    }
+	}
 }
 
 if (obj_priest.target != noone && instance_exists(obj_priest.target)) {

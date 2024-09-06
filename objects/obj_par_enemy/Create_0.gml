@@ -1,7 +1,7 @@
 /// @description Attributes
 
 // Status Base
-hp = 20;
+hp = 10;
 hp_max = 20;
 damage = 3;
 range = 16;

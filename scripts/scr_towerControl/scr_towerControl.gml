@@ -43,7 +43,7 @@ function has_enemy_on_range(_minRange, _maxRange, _objBase, _objEnemy){
 }
 
 
-function towerAttack(_damage, _targetObj){
+function towerShootAttack(_damage, _targetObj){
 	_targetObj.hp -= _damage;
 }
 
